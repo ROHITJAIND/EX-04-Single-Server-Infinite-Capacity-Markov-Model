@@ -46,7 +46,11 @@ else:
 print("---------------------------------------------------------------")
 ```
 ### Output :
-```
+<table border=5>
+    <tr>
+        <td>
+            
+```C
 Enter the mean inter arrival time of objects from Feeder (in secs): 12
 Enter the mean  inter service time of Lathe Machine (in secs) :  1
 Enter the Additional time taken for the Robot (in secs) :  7
@@ -63,5 +67,9 @@ Probability that the system is busy : 0.67
 Probability that the system is empty : 0.33 
 ---------------------------------------------------------------
 ```
+</td>
+</tr>
+</table>
+
 ### Result :
 The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
